@@ -17,7 +17,7 @@
   background-color: #ffffff00;
 }
 .windowIcons {
-  width: 535px;
+  width: 960px;
   height: 30px;
   position: absolute;
   background-color: #FFFFFF;
@@ -35,8 +35,8 @@
   align-self: center;
   align-content: center;
   align-items: center;
-  margin-left: 210px;
-  margin-top: 360px;
+  margin-left: 150px;
+  margin-top: 350px;
   background-color: #FFFFFF;
   border: 5px solid black;
   box-shadow: 5px 5px black;
@@ -55,11 +55,14 @@
   transition: .2s;
   background-color: black;
 }
-
+.imgBtn {
+  border:none;
+  transition: .2s;
+  background-color: black;
+}
 .btn a {
   background-color: rgba(0, 0, 0, 0);
 }
-
 .btn:hover {
   background-color: #C9C9C9;
 }
@@ -72,10 +75,11 @@
     box-shadow: 5px 5px #C9C9C9;
     color: white;
     background-color: #D92344;
-    width: 535px;
-    height: 430px;
+    width: 960px;
+    height: 630px;
     display: flex;
-    margin-top: 230px;
+    margin-top: 170px;
+    overflow: hidden;
 }
 
 .pfp {
@@ -84,7 +88,39 @@
   background-color: #D92344;
   border: 5px solid black;
   box-shadow: 5px 5px black;
-  align-items: center;
+  justify-content: center;
   display: flex;
+  margin-top: 150px;
+  margin-right: 600px;
+}
+
+.byfHead {
+  margin-top: -5px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  font-style: normal;
+  white-space: nowrap;
+  text-align: center;
+  text-shadow: 1.5px 1.5px black;
+  background-color: #D92344;
+  color: #FFFFFF;
+}
+.byfText {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  font-style: normal;
+  text-align: center;
+  text-shadow: 1.5px 1.5px black;
+  background-color: #D92344;
+  color: white;
+}
+.byf {
+  position: absolute;
+  background-color: #D92344;
+  width: 500px;
+  height: 370px;
+  margin-left: 450px;
   margin-top: 50px;
 }
