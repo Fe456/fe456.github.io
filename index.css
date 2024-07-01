@@ -38,6 +38,8 @@
   margin-left: 220px;
   margin-top: 360px;
   background-color: #FFFFFF;
+  border: 5px solid black;
+  box-shadow: 5px 5px black;
 }
 .appIcons img {
   width: 20px;

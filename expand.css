@@ -38,6 +38,8 @@
   margin-left: 150px;
   margin-top: 300px;
   background-color: #FFFFFF;
+  border: 5px solid black;
+  box-shadow: 5px 5px black;
 }
 .appIcons img {
   width: 20px;
@@ -58,11 +60,9 @@
   transition: .2s;
   background-color: black;
 }
-
 .btn a {
   background-color: rgba(0, 0, 0, 0);
 }
-
 .btn:hover {
   background-color: #C9C9C9;
 }
@@ -116,6 +116,10 @@ p {
   margin-bottom: 170px;
   border: 2px solid black;
   box-shadow: 5px 5px black;
+  transition: .2s;
+}
+.images button:hover {
+  transform: scale(1.05);
 }
 #rie img {
   width: 250px;

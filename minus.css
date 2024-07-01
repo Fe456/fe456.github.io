@@ -1,0 +1,71 @@
+* {
+    background-color: #0A0A0A;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.merriweather-sans {
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.box1 {
+  width: 500px;
+  height: 500px;
+  margin-top: 240px;
+  margin-left: 960px;
+  display: flex;
+  position: absolute;
+}
+
+.box2 {
+  width: 400px;
+  height: 400px;
+  margin-top: 280px;
+  margin-left: 460px;
+  display: flex;
+  position: absolute;
+}
+
+p {
+  position: absolute;
+  margin-top: 390px;
+  margin-left: 495px;
+  z-index: 1;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  font-style: normal;
+  text-align: center;
+  text-shadow: 1.5px 1.5px black;
+  color: white;
+  background: rgb(242,207,99);
+  background: linear-gradient(40deg, #FDE162 0%, #F8EA7D 71%);
+}
+a {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  font-style: normal;
+  text-shadow: 1.5px 1.5px black;
+  color: white;
+  background: rgb(242,207,99);
+  background: linear-gradient(40deg, #FDE162 0%, #F8EA7D 71%);
+}
+i {
+  background: rgb(242,207,99);
+  background: linear-gradient(40deg, #FDE162 0%, #F8EA7D 71%);
+}
+b {
+  background: rgb(242,207,99);
+  background: linear-gradient(40deg, #FDE162 0%, #F8EA7D 71%);
+}
+.ytVid {
+  position: absolute;
+  height: 300px;
+  width: 450px;
+  margin-top: 360px;
+  margin-left: 985px;
+}
