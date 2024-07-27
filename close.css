@@ -28,14 +28,14 @@
 }
 
 .appIcons {
-  width: 105px;
+  width: 135px;
   height: 30px;
   position: absolute;
   display: flex;
   align-self: center;
   align-content: center;
   align-items: center;
-  margin-left: 150px;
+  margin-left: 130px;
   margin-top: 350px;
   background-color: #FFFFFF;
   border: 5px solid black;
